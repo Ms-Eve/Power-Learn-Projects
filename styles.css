@@ -102,5 +102,47 @@ footer{
     gap: 5px;
     margin-left: 150px;
 }
+form{
+  max-width: 500px;
+  min-width: 300px;
+  margin: auto;
+  height: 100%;
+  background-color: darkcyan;
+  padding-left: 50px;
+  color: #f5f6f7;
+}
+input, textarea, select{
+    width: 50%;
+    margin: 7px 0 0 0;
+    min-height: 2em;
+    border-radius: 5px;
+    border-color: lightseagreen;
+}   
+h1 {
+    margin: 1em auto;
+    padding: 15px;
+}
+fieldset{
+    border: none;
+    padding: 1rem 0;
+    border-bottom: 3px solid #f5f6f7;
+}
+fieldset:last-of-type{
+    border-bottom: none;
+    
+}
+label{
+    display: block;
+    margin: 0.5rem 0;
+}
+.inline{
+    height: 1px;
+    display:inline;
+}
+submit{
+    border-radius: 5px;
+    height: 30px;
+    background-color: #4d4d53;
+}
 
 

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <form action="" method="">
+        <h1>Student Registration Form</h1>
+        <fieldset>
+        <label for="name">Student Name:</label>
+        <input type="text" id="name" placeholder="Enter Student's Name" required>
+        <label for="surname">Student Surname:</label>
+        <input type="text" id="surname" placeholder="Enter Student's Surname" required>
+        <label for="dob">Date Of Birth:</label>
+        <input type="date" id="dob" placeholder="Date of birth" required>
+        </fieldset>
+        <fieldset>
+            <legend>Gender</legend>
+        <label for="female">
+        <input type="radio" id="female" name="lady" checked class="inline"/>Female
+    </label>
+        <label for="male">
+        <input type="radio" id="male" name="man" class="inline"/>Male
+    </label>
+    
+    </fieldset>
+        
+        <fieldset>
+            <label for="address">Enter Your Address</label>
+        <input type="number" id="address" placeholder="House/Building Number" required>
+        <input type="address" id="address" placeholder="Street Name" required>
+        <input type="address" id="address" placeholder="Surbub" required>
+        <input type="address" id="address" placeholder="City/Town" required>
+        <input type="number" id="address" placeholder="Postal Code" required>
+        <label for="state">Choose Your State/Province</label>
+        <select>
+            <option value="dbn" >Durban</option>
+            <option value="gauteng">Gauteng</option>
+            <option value="ecape">Eastern Cape</option>
+            <option value="kzn">Kwazulu Natal</option>
+            <option value="wcape">Western Cape</option>
+        </select>
+        <label for="phone">Contact Number:</label>
+        <input type="phone" id="phone" placeholder="Enter Your Phone Number" required>
+        <label for="email">Student Surname:</label>
+        <input type="email" id="email" placeholder="Enter Your Email" required>
+        <fieldset>
+            <legend>Course</legend>
+        <select>
+            <option value="">Higher Certificate in IT</option>
+            <option value="">Diploma in IT</option>
+            <option value="">BSc IT</option>
+            <option value="">Higher Certificate in Business Management</option>
+            <option value="">BBA</option>
+            <option value="">DBA</option>
+        </select>
+       
+           </fieldset>
+        </fieldset>
+        <input type="submit" value="Register">
+        <input type="submit" value="Cancel">
+     </form>
+</body>
+</html>
