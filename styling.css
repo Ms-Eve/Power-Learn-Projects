@@ -1,0 +1,62 @@
+.main_doc{
+    max-width: 800px;
+    width:100vw;
+    height: auto;
+    border: 2px solid grey;
+    margin: auto;
+    padding: 3rem 1rem;
+    background-color: bisque;
+}
+header{
+    font-size:30px;
+    text-align: center;
+    font-family: verdana, sans-serif;
+    
+}
+.container{
+    background-color:darkslategrey;
+    padding: 15px;
+    color: aliceblue;
+    width: 50vw;
+    margin: 2rem auto;
+    border-radius: 5px;
+}
+.intro{
+    margin: 2rem auto;
+    font-style: oblique;
+    font-size: 16px;
+    width: 50vw;
+    background-color: beige;
+    padding: 15px;
+}
+.skills{
+
+    line-height: 2;
+    padding: 15px;
+    margin: 2rem auto;
+    width: 50vw;
+}
+.conn{
+     
+     width: 50vw;
+     background-color: darkslategrey;
+     padding: 15px;
+     margin: 2rem auto;
+     border-radius: 5px;
+     color: aliceblue;
+}
+li{
+    list-style-type:square;
+}
+.list{
+    font-weight: bold;
+    font-size: large;
+    font-family: Tahoma;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: medium;
+    line-height: 2;
+    
+}
